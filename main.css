@@ -1,0 +1,61 @@
+body {
+    margin:0;
+}
+.container{
+    width:900px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.container ul{
+    list-style-type: none;
+}
+.container ul li{
+    display:inline;
+    margin-left: 25px;
+}
+#news1{
+    width:600px;
+    margin:0 auto;
+}
+#news2{
+    width:600px;
+    margin:0 auto;
+}
+#news3{
+    width:600px;
+    margin:0 auto;
+}
+#news4{
+    width:600px;
+    margin:0 auto;
+}
+#news1pic{
+    width:350px;
+}
+#eind {
+    border-bottom: 1px solid blue;
+    color:grey;
+}
+.knoppen {
+    overflow:hidden;
+}
+.knoppen li {
+    list-style-type:none;
+    float:left;
+}
+.knoppen li.actief {
+    background-color:red;
+}
+.paneel {
+    
+}
+.paneel.actief {
+    display: block !important;
+}
+.paneel img{
+    max-width: 100%;
+}
